@@ -13,5 +13,8 @@ import java.util.List;
 public interface UserService {
     int addUser(User user);
     List<User> findUserByPage(int pageNum, int pageSize);
+<<<<<<< HEAD
     int Update(User user);
+=======
+>>>>>>> first
 }
