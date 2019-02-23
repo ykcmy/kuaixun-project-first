@@ -9,7 +9,6 @@ spring:
             url: jdbc:mysql://127.0.0.1:3306/springboot
             username: root
             password: root
-            # ʹ��druid����Դ
             type: com.alibaba.druid.pool.DruidDataSource
             driver-class-name: com.mysql.jdbc.Driver
             filters: stat
@@ -30,7 +29,6 @@ spring:
             url: jdbc:mysql://127.0.0.1:3306/sys
             username: root
             password: root
-            # ʹ��druid����Դ
             type: com.alibaba.druid.pool.DruidDataSource
             driver-class-name: com.mysql.jdbc.Driver
             filters: stat
@@ -49,9 +47,9 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.rokid.model
+  type-aliases-package: com.kuaixun.model
 
-#pagehelper��ҳ���
+#分页
 pagehelper:
     helperDialect: mysql
     reasonable: true
